@@ -1,0 +1,39 @@
+{
+  "adminConfig": {
+    "id": "admin",
+    "password": "mist2025"
+  },
+  "studioName": "MIST ARCHITECTURE",
+  "estYear": "2020",
+  "tagline": "MINIMAL + STRUCTURE & SPACE",
+  "heroDescription": "We explore an architectural practice where compressed structures converge with primordial light. Through sculptural interventions shaped by mass and void, we seek to reveal the spatial experience born from weight, absence, and emptiness.",
+  "heroImageLeft": "",
+  "heroImageRight": "",
+  "philosophyTitle": "THE FOUNDATION OF A BETTER SPACE",
+  "philosophyQuote": "“미스트 건축사사무소는 건축이 단순한 형태의 조형을 넘어, 장소가 지닌 고유한 맥락과 사람들의 일상을 깊이 이해하는 데서 시작한다고 믿습니다. 기준과 구조의 본질을 바탕으로 불필요한 요소를 덜어내고, 재료가 가진 고유한 질감과 빛, 비움의 관계를 세심하게 다룹니다. 우리는 공간의 쓰임과 감각이 조화를 이루는 설계를 통해 시간의 흐름속에 가치가 깊어지고, 사람과 환경에 오래도록 긍정적인 영향을 전하는 건축을 만들어갑니다.”",
+  "philosophyPoints": [
+    {
+      "number": "01",
+      "title": "TECTONIC HONESTY",
+      "description": "과도한 덧붙임 없이 재료 고유의 본질과 구축의 논리를 정직하게 드러냅니다."
+    },
+    {
+      "number": "02",
+      "title": "SPATIAL SILENCE",
+      "description": "빛과 어둠, 비움과 채움의 침묵 속에서 사유할 수 있는 고요한 공간을 직조합니다."
+    },
+    {
+      "number": "03",
+      "title": "TEMPORAL PERMANENCE",
+      "description": "유행을 좇지 않고 시간의 흐름 속에서 자연스럽게 깊어지는 영속적인 공간을 추구합니다."
+    }
+  ],
+  "officeAddressKr": "서울특별시 광진구 구의동 596-5 광성빌딩",
+  "officeAddressEn": "742 Ttukseom-ro, Gwangjin-gu, Seoul 05115, Republic of Korea",
+  "phone": "+82 (0)2 . 543 . 7380",
+  "email": "mist5298@naver.com",
+  "naverBlogUrl": "https://blog.naver.com/mist5298",
+  "instagramUrl": "",
+  "drawingRoomImage": "/src/assets/images/drawing_room_empty_1792300107736.jpg",
+  "adminPasswordHash": "mist2025"
+}

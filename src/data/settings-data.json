@@ -1,0 +1,35 @@
+{
+  "studioName": "MIST ARCHITECTURE",
+  "estYear": "2020",
+  "tagline": "STRUCTURE, SPACE, SILENCE",
+  "heroDescription": "MIST ARCHITECTURE is an architectural practice guided by tectonic authenticity, raw material presence, and quiet spatial restraint. We design monolithic spaces that converse with time, light, and landscape.",
+  "heroImageLeft": "",
+  "heroImageRight": "",
+  "philosophyTitle": "TECTONIC HONESTY & SPATIAL SILENCE",
+  "philosophyQuote": "우리는 장식적 허상을 걷어내고, 구조적 진실성과 물성의 순수한 비례를 통해 시간의 무게를 견디는 침묵의 공간을 구축합니다.",
+  "philosophyPoints": [
+    {
+      "number": "01",
+      "title": "TECTONIC HONESTY",
+      "description": "과도한 덧붙임 없이 재료 고유의 본질과 구축의 논리를 정직하게 드러냅니다."
+    },
+    {
+      "number": "02",
+      "title": "SPATIAL SILENCE",
+      "description": "빛과 어둠, 비움과 채움의 침묵 속에서 사유할 수 있는 고요한 공간을 직조합니다."
+    },
+    {
+      "number": "03",
+      "title": "TEMPORAL PERMANENCE",
+      "description": "유행을 좇지 않고 시간의 흐름 속에서 자연스럽게 깊어지는 영속적인 공간을 추구합니다."
+    }
+  ],
+  "officeAddressKr": "서울특별시 광진구 아차산로 384, MIST 빌딩 4층",
+  "officeAddressEn": "4F, MIST Building, 384 Achasan-ro, Gwangjin-gu, Seoul, Republic of Korea",
+  "phone": "+82 (0)2 458 2020",
+  "email": "contact@mist-arch.com",
+  "naverBlogUrl": "https://blog.naver.com/mist_arch",
+  "instagramUrl": "https://instagram.com/mist_architecture",
+  "drawingRoomImage": "",
+  "adminPasswordHash": "mist2025"
+}
