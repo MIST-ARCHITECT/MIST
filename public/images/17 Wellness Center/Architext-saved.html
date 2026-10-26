@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyeongtaek Wellness Hub | Architectural Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#0a0a0a',
+                        textMain: '#f5f5f5',
+                        accent: '#d4a373',
+                    },
+                    fontFamily: {
+                        display: ['Outfit', 'sans-serif'],
+                        body: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@300;500;800&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0a0a0a; color: #f5f5f5; font-family: 'Inter', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    </style>
+</head>
+<body class="selection:bg-accent selection:text-black">
+
+    <!-- Hero Section -->
+    <header class="min-h-[60vh] flex flex-col justify-center items-start px-6 md:px-20 pt-20">
+        <h1 class="font-display text-5xl md:text-8xl font-extrabold tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
+            Pyeongtaek Oriental Medical Clinic Building
+        </h1>
+        <h2 class="font-display text-2xl md:text-4xl text-accent font-light tracking-wide">
+            평택 웰니스 허브
+        </h2>
+    </header>
+
+    <!-- Project Description Section -->
+    <main class="max-w-4xl mx-auto px-6 py-20">
+        <section class="glass p-8 md:p-12 rounded-3xl">
+            <p class="text-xl md:text-2xl text-textMain leading-relaxed mb-6">
+                This minimalist clinic blends raw concrete, warm wood, and glass. Centered on an 'insertion and void' concept, the design creates dynamic interiors with high ceilings and diagonal wood paneling. A concrete frame encloses a transparent glass skin, striking a balance between solid mass and light.
+            </p>
+            <p class="text-lg text-textMain/80 leading-relaxed">
+                이 클리닉은 노출 콘크리트, 따뜻한 목재, 유리를 조화시킨 미니멀리즘 디자인을 선보입니다. '삽입과 비움'의 개념을 중심으로 높은 층고와 사선 목재 패널링이 역동적인 내부 공간을 조성합니다. 콘크리트 프레임은 투명한 유리 스킨을 감싸며 구조적 고체와 빛 사이의 완벽한 균형을 보여줍니다.
+            </p>
+        </section>
+
+        <!-- Image Metadata List Section -->
+        <section class="mt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/cbae2c5a-67de-48d6-91b6-35aed001c8fb' alt='Modern facade with concrete frame and glass skin.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">Modern facade with concrete frame and glass skin. / 콘크리트 프레임과 유리 스킨의 모던한 파사드</p>
+                </div>
+
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/7dde7933-9b8e-42ce-b202-5182a7869b79' alt='Upward view of the sleek glass curtain wall.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">Upward view of the sleek glass curtain wall. / 매끈한 유리 커튼월을 바라본 상향 투시도</p>
+                </div>
+
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/6921b5da-be5e-4155-bc8e-5c049bad0fec' alt='Diagram of mass composition and material palette.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">Diagram of mass composition and material palette. / 매스 구성과 재료 팔레트를 보여주는 다이어그램</p>
+                </div>
+
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/e39a6aa4-dd13-4432-9284-c2636747c13d' alt='High-ceiling interior with raw exposed concrete.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">High-ceiling interior with raw exposed concrete. / 노출 콘크리트가 돋보이는 높은 층고의 내부 공간</p>
+                </div>
+
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/9664f39a-2ef2-44cd-8d48-71b5c6300b8b' alt='Wooden staircase detail against concrete walls.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">Wooden staircase detail against concrete walls. / 콘크리트 벽면과 대비되는 목재 계단 디테일</p>
+                </div>
+
+                <div class="group">
+                    <div class="aspect-[4/3] bg-gray-800 rounded-2xl overflow-hidden mb-4 shadow-2xl">
+                        <img src='https://opal.google/board/blobs/393972ce-b077-4b4f-8fe9-3793065dfa1f' alt='Main interior featuring diagonal wood paneling.' class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <p class="text-sm italic text-textMain/70">Main interior featuring diagonal wood paneling. / 사선형 목재 패널링이 특징인 주요 내부 공간</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-32 mb-20 text-center">
+            <a href="#" class="inline-block px-8 py-4 border border-textMain/20 rounded-full hover:bg-white hover:text-black transition-all duration-300 uppercase tracking-widest text-sm font-semibold">
+                Back to Portfolio
+            </a>
+        </footer>
+    </main>
+
+</body>
+</html>

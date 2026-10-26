@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibition Space | Architectural Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        textMain: '#f4f4f5',
+                        accent: '#a1a1aa'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap');
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200 antialiased selection:bg-zinc-700 selection:text-white">
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col items-center justify-center px-6 text-center">
+        <h1 class="text-6xl md:text-8xl font-display font-bold tracking-tighter text-white mb-4">
+            Exhibition Space / 전시 공간
+        </h1>
+        <h2 class="text-xl md:text-2xl font-light text-accent uppercase tracking-[0.3em]">
+            Modular Reflections / 모듈러 리플렉션
+        </h2>
+        <div class="absolute bottom-10 animate-bounce">
+            <svg class="w-6 h-6 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+        </div>
+    </section>
+
+    <!-- Description Section -->
+    <section class="max-w-4xl mx-auto px-6 py-24">
+        <div class="glass p-10 md:p-16 rounded-3xl">
+            <p class="text-xl md:text-2xl text-textMain leading-relaxed mb-6">
+                This minimalist exhibition space utilizes modular stainless steel blocks to create a flexible, industrial-chic environment. Integrated grid lighting and reflective surfaces contrast with raw concrete floors, offering a dynamic visitor experience through reconfigurable layouts and sleek aesthetics.
+            </p>
+            <p class="text-lg text-textMain/80 leading-relaxed">
+                이 미니멀한 전시 공간은 모듈형 스테인리스 스틸 블록을 활용하여 유연하고 산업적인 세련미를 연출합니다. 통합 그리드 조명과 반사 표면이 노출 콘크리트 바닥과 대비를 이루며, 재구성 가능한 배치와 세련된 미학을 통해 역동적인 관람 경험을 제공합니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="max-w-7xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- IMAGE_01 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/c2b7d362-62e9-4bfc-a7d8-ac71022347e6' alt='media_1' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Open gallery with modular mirrored center. / 모듈형 거울 센터가 있는 개방형 갤러리.</p>
+            </div>
+            <!-- IMAGE_02 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/c915a7d1-2d8f-4c7c-8bf1-5ddca1f632ba' alt='media_2' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Close-up of reflective modular installations. / 반사형 모듈식 설치물의 클로즈업.</p>
+            </div>
+            <!-- IMAGE_03 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/76256e0e-5a9f-49cf-8438-bfcd04fdcc08' alt='media_3' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Versatile counter layout for display needs. / 전시 요구를 위한 다목적 카운터 레이아웃.</p>
+            </div>
+            <!-- IMAGE_04 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/2b6ab749-547f-4830-aa47-527cce61048f' alt='media_4' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Vertical pillars creating a rhythmic partition. / 리듬감 있는 파티션을 만드는 수직 기둥.</p>
+            </div>
+            <!-- IMAGE_05 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/001916c8-274e-493f-ba49-6d40e7ac2153' alt='media_5' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Staggered blocks fostering dynamic movement. / 역동적인 움직임을 유도하는 지그재그형 블록.</p>
+            </div>
+            <!-- IMAGE_06 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/b760df93-bac0-426d-b61d-7971212130b1' alt='media_6' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">High-contrast reflections on clustered modules. / 클러스터링된 모듈의 강한 대비 반사.</p>
+            </div>
+            <!-- IMAGE_07 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/e13ff233-13cc-4b87-9630-f1cd853e9490' alt='media_7' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Transitioning from a focal point to units. / 중심점에서 개별 단위로의 전환.</p>
+            </div>
+            <!-- IMAGE_08 -->
+            <div class="group">
+                <div class="overflow-hidden rounded-2xl mb-4 bg-zinc-900 aspect-square">
+                    <img src='https://opal.google/board/blobs/215f8866-148e-40a0-8047-5d5633c7e0d0' alt='media_8' class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <p class="text-sm font-medium italic text-zinc-400">Dispersed blocks as pedestals or seating. / 좌석이나 받침대로 분산된 블록.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 text-center">
+        <a href="#" class="text-zinc-500 hover:text-white transition-colors duration-300 uppercase tracking-[0.2em] text-sm font-bold">
+            ← Back to Portfolio
+        </a>
+    </footer>
+
+</body>
+</html>
