@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seocho Urban Monolith | Architectural Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bgMain: '#FAFAFA',
+                        textMain: '#18181B',
+                        accent: '#71717A',
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'serif'],
+                        body: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
+        
+        body {
+            background-color: #FAFAFA;
+            color: #18181B;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .image-card {
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .image-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <main class="max-w-5xl mx-auto px-6 py-16 md:py-24">
+        
+        <!-- Hero Section -->
+        <header class="mb-20">
+            <h1 class="hero-title text-5xl md:text-7xl font-bold tracking-tight mb-4 text-zinc-900">
+                Seocho-dong Commercial-Residential Building / 서초동 상가 주택
+            </h1>
+            <h2 class="text-2xl md:text-3xl font-light text-zinc-500 italic">
+                Seocho Urban Monolith / 서초동 어반 모놀리스
+            </h2>
+        </header>
+
+        <!-- Description Section -->
+        <section class="max-w-3xl mb-24">
+            <p class="text-xl md:text-2xl text-textMain leading-relaxed mb-6">
+                This multi-purpose building in Seocho-dong features a striking brick facade with a dynamic, slanted silhouette. Its design maximizes natural light through strategically placed skylights and a private terrace, blending commercial ground space with refined residential interiors and urban style.
+            </p>
+            <p class="text-lg text-textMain/80 leading-relaxed">
+                서초동에 위치한 이 상가 주택은 역동적인 경사 지붕과 세련된 벽돌 외관이 특징입니다. 전략적으로 배치된 천창과 전용 테라스를 통해 자연광을 극대화하며, 1층의 상업 공간과 상부의 우아한 주거 공간을 조화롭게 결합하여 현대적인 도시 감성을 제안합니다.
+            </p>
+        </section>
+
+        <!-- Image Gallery Section -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Item 01 -->
+            <div class="space-y-4">
+                <div class="overflow-hidden bg-zinc-200 rounded-sm">
+                    <img src='https://opal.google/board/blobs/a94d597a-8d04-454f-ba78-2283760a7845' alt='Front facade' class="w-full h-auto object-cover image-card" />
+                </div>
+                <div class="text-sm font-medium italic text-zinc-600">
+                    Front facade with a dynamic brick silhouette. / 역동적인 벽돌 실루엣을 강조한 정면부 외관.
+                </div>
+            </div>
+
+            <!-- Item 02 -->
+            <div class="space-y-4 md:mt-20">
+                <div class="overflow-hidden bg-zinc-200 rounded-sm">
+                    <img src='https://opal.google/board/blobs/38dda824-093b-482d-9cbd-69de2eab63c7' alt='Oblique view' class="w-full h-auto object-cover image-card" />
+                </div>
+                <div class="text-sm font-medium italic text-zinc-600">
+                    Oblique view showing the slanted roofline. / 경사진 지붕 라인이 돋보이는 측면 투시도.
+                </div>
+            </div>
+
+            <!-- Item 03 -->
+            <div class="space-y-4 md:col-span-2">
+                <div class="overflow-hidden bg-zinc-200 rounded-sm">
+                    <img src='https://opal.google/board/blobs/6d0117cf-01f5-48c9-9d5c-9144d0e75fb4' alt='Dining area' class="w-full h-full max-h-[600px] object-cover image-card" />
+                </div>
+                <div class="text-sm font-medium italic text-zinc-600">
+                    Bright dining area with rhythmic skylights. / 리듬감 있는 천창으로 밝게 연출된 식당 공간.
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-32 pt-12 border-t border-zinc-200">
+            <a href="#" class="text-sm uppercase tracking-widest text-zinc-500 hover:text-zinc-900 transition-colors flex items-center gap-2">
+                <span class="text-lg">←</span> Back to Portfolio
+            </a>
+        </footer>
+
+    </main>
+
+</body>
+</html>
