@@ -13,6 +13,19 @@ import { AdminDashboard } from './pages/AdminDashboard';
 const MainApp: React.FC = () => {
   const { page } = useApp();
 
+  React.useEffect(() => {
+    const handleContextMenu = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (target && target.tagName === 'IMG') {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener('contextmenu', handleContextMenu);
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+    };
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-[#0a0a0a] antialiased">
       {/* Fixed Header */}
