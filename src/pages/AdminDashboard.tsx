@@ -293,6 +293,16 @@ export const AdminDashboard: React.FC = () => {
     setProjectForm((prev) => ({ ...prev, [field]: value }));
   };
 
+  const sanitizeImagePath = (path: string): string => {
+    let cleaned = path.trim();
+    if (cleaned.startsWith('public/')) {
+      cleaned = '/' + cleaned.slice(7);
+    } else if (!cleaned.startsWith('/') && !cleaned.startsWith('http://') && !cleaned.startsWith('https://') && !cleaned.startsWith('data:')) {
+      cleaned = '/' + cleaned;
+    }
+    return cleaned;
+  };
+
   // Add single image plate via text URL/path input
   const handleAddSinglePlate = () => {
     if (!tempImageUrl.trim()) {
@@ -301,7 +311,7 @@ export const AdminDashboard: React.FC = () => {
     }
     const newPlate: ProjectPlate = {
       id: `plate-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
-      src: tempImageUrl.trim(),
+      src: sanitizeImagePath(tempImageUrl),
       caption: tempImageCaption.trim() || `0${projectForm.plates.length + 1} — Architectural Plate View`
     };
     const updatedPlates = [...projectForm.plates, newPlate];
@@ -315,7 +325,7 @@ export const AdminDashboard: React.FC = () => {
     const updatedPlates = [...projectForm.plates];
     updatedPlates[index] = {
       ...updatedPlates[index],
-      src: newSrc
+      src: sanitizeImagePath(newSrc)
     };
     setProjectForm((prev) => ({ ...prev, plates: updatedPlates }));
   };
